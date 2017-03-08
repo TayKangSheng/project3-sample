@@ -5,7 +5,7 @@
 #   gem 'sqlite3'
 #
 default: &default
-  adapter: adapter: postgresql
+  adapter: postgresql
   pool: 5
   timeout: 5000
 
@@ -22,7 +22,6 @@ test:
 
 production:
   <<: *default
-
   database: project3-sample_production
   username: project3-sample
   password: <%= ENV['PROJECT3-SAMPLE_DATABASE_PASSWORD'] %>
