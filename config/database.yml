@@ -22,4 +22,7 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  adapter: adapter: postgresql
+  database: rails-national-parks_production
+  username: rails-national-parks
+  password: <%= ENV['RAILS-NATIONAL-PARKS_DATABASE_PASSWORD'] %>
