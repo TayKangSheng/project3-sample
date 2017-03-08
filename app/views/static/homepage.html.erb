@@ -1,0 +1,11 @@
+<% provide(:title, "Home Page") %>
+
+<h1>Project3-Sample</h1>
+
+<% if !current_user %>
+  <p>Welcome to Project3-Sample</p>
+<% else %>
+  <!-- false -->
+  <p>Welcome, <%= current_user ? current_user.email : nil %>!</p>
+  <p><%= Faker::Hipster.paragraph %></p>
+<% end %>
