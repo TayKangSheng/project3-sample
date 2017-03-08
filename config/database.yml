@@ -5,24 +5,24 @@
 #   gem 'sqlite3'
 #
 default: &default
-  adapter: sqlite3
+  adapter: adapter: postgresql
   pool: 5
   timeout: 5000
 
 development:
   <<: *default
-  database: db/development.sqlite3
+  database: project3-sample_development
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: db/test.sqlite3
+  database: project3-sample_test
 
 production:
   <<: *default
-  adapter: adapter: postgresql
-  database: rails-national-parks_production
-  username: rails-national-parks
-  password: <%= ENV['RAILS-NATIONAL-PARKS_DATABASE_PASSWORD'] %>
+
+  database: project3-sample_production
+  username: project3-sample
+  password: <%= ENV['PROJECT3-SAMPLE_DATABASE_PASSWORD'] %>
