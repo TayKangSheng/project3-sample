@@ -1,0 +1,8 @@
+language: ruby
+rvm:
+ - ruby-head
+deploy:
+  provider: heroku
+  app: still-earth-90198
+  api_key:
+    secure: ""
