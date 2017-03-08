@@ -1,8 +1,8 @@
 language: ruby
 rvm:
- - ruby-head
+- ruby-head
 deploy:
   provider: heroku
-  app: still-earth-90198
+  app: serene-springs-14726
   api_key:
-    secure: ""
+    secure: Acsu3Yqce7+WkK53q6AjTPY0zriQOakpPtiO3mnOkv/Ec/EWJ7khjRNKGr7acMQRRK5K4IEHirZk6g1Vt92tLe2wyrbT787vxh1JHZNxZu+OLrucrxUQ1vfDV2EsYApOm9W19wTsqlEOMeyF/XzxfpncpABIKxJFtnZt5qLjDRs6ABmqvFTLCoII0KNrc1qBNZD9HUnWd1miVFDfT5fPoiBpIJBBf54Zkhr23goWr1tJF1MWihIc81cWRer74M8Tnof8Y5LYFT5HEGHPUgYwwU1ZmUQSX6dppN8dPB62WTipt2RwWGU/vjKl+8Jia5rNQmSgxKcKEKadYGS5h9WTKf4hRzmCtm33aZ3wyz3fw49vOB7c0OEytim22+4FoYWeZeRScIfoA8TMH+dkvwqim3e8kUl6shc9+b4eceOunRWV5iI4+LCY+W6Zk/R95mHCz2xSnmAkrqt2HFFXtJKp43YiLwxbHXZ56lIrh9K6SMOST363/WB192mcVfgRHuGMkoeXdBRQ3S7sJPwmvucdIC3BUP2wZLh7f53bIPRRG4PidNHWZiL7ZQ6a/toxvv607rQ0nLG2SdwfaYamNZDja2THbI88sF5RDt1m7KeRF5EBRKZQtwMsO3kt+QSrEaNlWF7n90aeARWKcJ62qTztaw2YuxfXRphaxi3wc4RjMEA=
